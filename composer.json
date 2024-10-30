@@ -1,0 +1,25 @@
+{
+	"name": "jamstackpress/jamstackpress",
+	"type": "project",
+	"minimum-stability": "stable",
+	"config": {
+		"platform": {
+			"php": "7.4"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Plugin\\": "src/Plugin"
+		},
+		"files": [
+			"src/Plugin/Support/helpers.php"
+		]
+	},
+	"require": {
+		"hassankhan/config": "^3.0",
+		"fasterimage/fasterimage": "^1.5"
+	},
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^3.9"
+	}
+}
